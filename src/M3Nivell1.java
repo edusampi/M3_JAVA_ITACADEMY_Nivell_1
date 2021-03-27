@@ -5,7 +5,9 @@ public class M3Nivell1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-// FASE 1 --------------------------------------------------------------		
+// FASE 1 ------------ creació dels 6 String de ciutats entrant dades amb un Scanner
+		
+		
 		 System.out.println(" --------- FASE 1 -----------------");	
 		
 		Scanner scanner = new Scanner (System.in);
@@ -29,7 +31,7 @@ public class M3Nivell1 {
 		 String ciutat6 = scanner.nextLine();
 	
 
-// FASE 2 --------------------------------------------------------------	
+// FASE 2 ----------------- ordenació de ciutats mitjançant un sort 	
 		 
 		 System.out.println("--------- FASE 2 -----------------");	
 		 String arrayCiutats [] = {ciutat1, ciutat2, ciutat3,ciutat4,ciutat5, ciutat6};
@@ -42,7 +44,7 @@ public class M3Nivell1 {
 			 System.out.println(arrayCiutats[i]);
 		 } 
 	
-// FASE 3 ------------------------------------------------------------
+// FASE 3 -------------- utilització de replace per canviar les "a" per un "4"
 		 
 		 System.out.println("--------- FASE 3 -----------------");	
 		 System.out.println("Ciutats modificades por ordre alfabètic canviant 'a' per '4'");	
@@ -53,7 +55,7 @@ public class M3Nivell1 {
 	}
 
 
-// FASE 4 ------------------------------------------------------------
+// FASE 4 ----------conversió de String de ciutats en array de char i impresió a l'inrevès
 	
 	 System.out.println("--------- FASE 4 -----------------");	
 	 
